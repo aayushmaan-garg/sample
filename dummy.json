@@ -1,0 +1,79 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "age": 29,
+      "address": {
+        "street": "123 Maple Street",
+        "city": "Springfield",
+        "state": "IL",
+        "zip": "62704"
+      },
+      "preferences": {
+        "newsletter": true,
+        "notifications": {
+          "email": true,
+          "sms": false
+        },
+        "theme": "dark"
+      },
+      "activity_log": [
+        { "date": "2025-07-01", "action": "login" },
+        { "date": "2025-07-02", "action": "update_profile" },
+        { "date": "2025-07-03", "action": "logout" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "email": "bob.smith@example.com",
+      "age": 34,
+      "address": {
+        "street": "456 Oak Avenue",
+        "city": "Rivertown",
+        "state": "CA",
+        "zip": "90210"
+      },
+      "preferences": {
+        "newsletter": false,
+        "notifications": {
+          "email": false,
+          "sms": true
+        },
+        "theme": "light"
+      },
+      "activity_log": [
+        { "date": "2025-06-25", "action": "login" },
+        { "date": "2025-06-26", "action": "purchase" },
+        { "date": "2025-06-27", "action": "logout" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Carol Lee",
+      "email": "carol.lee@example.com",
+      "age": 41,
+      "address": {
+        "street": "789 Pine Road",
+        "city": "Lakeside",
+        "state": "TX",
+        "zip": "75001"
+      },
+      "preferences": {
+        "newsletter": true,
+        "notifications": {
+          "email": true,
+          "sms": true
+        },
+        "theme": "system"
+      },
+      "activity_log": [
+        { "date": "2025-05-15", "action": "login" },
+        { "date": "2025-05-16", "action": "password_reset" },
+        { "date": "2025-05-17", "action": "logout" }
+      ]
+    }
+  ]
+}
