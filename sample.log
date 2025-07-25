@@ -1,0 +1,15 @@
+2025-07-25 08:32:12,103 INFO  [main] Starting MyApp v2.1.0
+2025-07-25 08:32:12,105 DEBUG [config] Loaded configuration file from /etc/myapp/config.yaml
+2025-07-25 08:32:12,223 INFO  [database] Connecting to PostgreSQL at db.myapp.local:5432
+2025-07-25 08:32:12,324 INFO  [database] Connection established successfully
+2025-07-25 08:32:13,010 INFO  [server] HTTP server started on port 8080
+2025-07-25 08:33:45,921 WARN  [auth] Failed login attempt for user 'admin' from IP 192.168.1.203
+2025-07-25 08:34:03,045 INFO  [auth] User 'jane.doe' logged in successfully
+2025-07-25 08:35:22,112 ERROR [payment] Payment processing failed: Timeout while contacting payment gateway
+2025-07-25 08:35:22,114 DEBUG [payment] Request payload: { "amount": 49.99, "method": "credit_card", "userId": 1003 }
+2025-07-25 08:36:10,389 INFO  [scheduler] Running daily report job
+2025-07-25 08:36:11,003 INFO  [report] Report generated successfully: /var/reports/daily_2025-07-25.csv
+2025-07-25 08:38:02,941 WARN  [cache] Cache miss for key 'user_session_4381'
+2025-07-25 08:39:16,788 INFO  [shutdown] Received termination signal, shutting down gracefully...
+2025-07-25 08:39:17,003 INFO  [server] HTTP server stopped
+2025-07-25 08:39:17,105 INFO  [main] Shutdown complete. Goodbye!
